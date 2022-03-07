@@ -1,0 +1,393 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutSite.cshtml";
+}
+@*<h2>So mau tin @ViewBag.SoMauTin</h2>*@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 aside-item sidebar_menu">
+            <div class="row">
+                <div class="module-header">
+                    <h6 class="module-title style-1">
+                        <a href="">
+                            <i class="fa fa-bars mr-1"></i><span>DANH MỤC SẢN PHẨM</span>
+                        </a>
+                    </h6>
+                </div>
+                <div class="module-content">
+                    <ul class="menu-list">
+                        <li class="menu-item lv1 ">
+                            <a href="#" title="Tất cả sản phẩm"><i class="fa fa-caret-right mr-1"></i><span>Tất cả sản phẩm</span></a>
+                        </li>
+                        <li class="menu-item lv1 ">
+                            <a href="#" title="Sản phẩm mới"><i class="fa fa-caret-right mr-1"></i><span>Sản phẩm mới</span></a>
+                        </li>
+                        <li class="menu-item lv1 ">
+                            <a href="#" title="Giày thời trang nam"><i class="fa fa-caret-right mr-1"></i><span>Giày nam</span></a>
+                            <ul class="sub-menu-list">
+                                <li class="sub-menu-item lv2 ">
+                                    <a href="#" title="NIKE"><span>NIKE</span></a>
+                                </li>
+                                <li class="sub-menu-item lv2 ">
+                                    <a href="#" title="BITIS HUNTER"><span>BITIS HUNTER</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item lv1 ">
+                            <a href="#" title="Giày thời trang Nữ"><i class="fa fa-caret-right mr-1"></i><span>Giày Nữ</span></a>
+                            <ul class="sub-menu-list">
+                                <li class="sub-menu-item lv2 ">
+                                    <a href="#" title="NIKE"><span>NIKE</span></a>
+                                </li>
+                                <li class="sub-menu-item lv2 ">
+                                    <a href="#" title="BITIS HUNTER"><span>BITIS HUNTER</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="aside-item sidebar_support">
+                <div class="row ">
+                    <div class="module-header">
+                        <h6 class="module-title style-1 support-header">
+                            <i class="fa fa-handshake-o mr-1" aria-hidden="true"></i><span>HỖ TRỢ TRỰC TUYẾN</span>
+                        </h6>
+                    </div>
+                    <div class="support-content">
+                        <ul class="menu-list">
+                            <li class="menu-item contact">
+                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                <b>Zalo: Quốc Việt</b>
+                                <a href="#" title="Liên hệ zalo">
+                                    <br /><span>(+84)98930428</span>
+                                </a>
+                            </li>
+                            <li class="menu-item contact ">
+                                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                                <b>Tư vấn trực tuyến</b>
+                                <a href="#" title="Hỗ trợ trực tuyến"><span><br />Mr.Viet: (+84)369428888</span></a>
+                            </li>
+                            <li class="menu-item contact ">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <b>Email liên hệ</b>
+                                <a href="#" title="Liên hệ Email"><span>viet2000yyy@gmail.com</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="aside-item sidebar_banner banner hidden-sm hidden-xs">
+                    <div class="module-content">
+                        <a href="#" title="Banner sidebar">
+                            <img class="img-responsive lazyload loaded" src="~/Public/img/banner_left2.jpg" alt="banner-sidebar" data-was-processed="true" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="aside-item sidebar-news mt-5">
+                <div class="row ">
+                    <div class="module-header ">
+                        <h6 class="module-title style-1 news-header">
+                            <i class="fa fa-newspaper-o"></i><span>Tin Tức</span>
+                        </h6>
+                    </div>
+                    <div class="item news">
+                        <div class=" img-news">
+                            <a href="#" title="----">
+                                <img class="img-responsive lazyload loaded" src="~/Public/img/tintuc.png" data-was-processed="true" />
+                            </a>
+                        </div>
+                        <div class="article-info content-news">
+                            <h4 class="article-name">
+                                <a href="#">
+                                    <span>Mẫu giày thể thao dành cho bạn gái</span>
+                                </a>
+                            </h4>
+                            <p class="article-summary-or-content text3line">Giày thể thao đang là phụ kiện không thể thiếu trong tủ giày dép của các bạn gái. Những đôi giày thể thao với thiết kế đa dạng, nhiều màu sắc thường được phái đẹp lựa chọn. </p>
+                            <br />
+                            <p class="next">
+                                <a href="#">[Đọc tiếp...]</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @*---------------------------SẢN PHẨM MỚI---------------------------*@
+        <div class="col-md-9">
+            <div class="row">
+                <div class="main_content col-xs-12 col-sm-12 col-lg-12 col-md-12">
+                    <div class="module-header2">
+                        <h6 class="module-title style-2">
+                            <a href="#" title="Sản phẩm mới"><span>Sản phẩm mới</span></a>
+                        </h6>
+                    </div>
+                    <div class="module-content2">
+                        <div class="owl-carousel">
+                            <div class="owl-stage-outer" style="height:300px;">
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay1.jpg" class="card-img-top" alt="...">
+                                    <a href="#" class="new-box">New</a>
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 1</a></h6>
+                                        <span class="special-price">1.200.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay2.jpg" class="card-img-top" alt="...">
+                                    <a href="#" class="new-box">New</a>
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 2</a></h6>
+                                        <span class="special-price">900.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay3.jpg" class="card-img-top" alt="...">
+                                    <a href="#" class="new-box">New</a>
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 3</a></h6>
+                                        <span class="special-price">1.450.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay5.jpg" class="card-img-top" alt="...">
+                                    <a href="#" class="new-box">New</a>
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 5</a></h6>
+                                        <span class="special-price">1.000.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+                    <div class="large_banner banner">
+                        <div class="module-content banner_lv2">
+                            <a href="#">
+                                <img class="img-responsive lazyload loaded" src="~/Public/img/large_banner_1.jpg" alt="banner_phu" data-was-processed="true" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*------------------------------Giày Nam------------------------------------*@
+            <div class="row">
+                <div class="main_content col-xs-12 col-sm-12 col-lg-12 col-md-12">
+                    <div class="module-header2">
+                        <h6 class="module-title style-2">
+                            <a href="#" title="Sản phẩm mới"><span>Giày Nam</span></a>
+                        </h6>
+                    </div>
+                    <div class="module-content2">
+                        <div class="owl-carousel">
+                            <div class="owl-stage-outer" style="height:300px;">
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay6.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 6</a></h6>
+                                        <span class="special-price">1.700.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay7.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 7</a></h6>
+                                        <span class="special-price">1.180.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay8.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 8</a></h6>
+                                        <span class="special-price">850.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay9.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 9</a></h6>
+                                        <span class="special-price">2.100.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 1</a></h6>
+                                        <span class="special-price">1.200.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 3</a></h6>
+                                        <span class="special-price">1.450.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12">
+                    <div class="large_banner banner">
+                        <div class="module-content banner_lv2">
+                            <a href="#">
+                                <img class="img-responsive lazyload loaded" src="~/Public/img/large_banner_2.jpg" alt="banner_phu" data-was-processed="true" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*-----------------------------------Giày Nữ---------------------------------------------------*@
+            <div class="row">
+                <div class="main_content col-xs-12 col-sm-12 col-lg-12 col-md-12">
+                    <div class="module-header2">
+                        <h6 class="module-title style-2">
+                            <a href="#" title="Sản phẩm mới"><span>Giày Nữ</span></a>
+                        </h6>
+                    </div>
+                    <div class="module-content2">
+                        <div class="owl-carousel">
+                            <div class="owl-stage-outer" style="height:300px;">
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay9.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 9</a></h6>
+                                        <span class="special-price">2.100.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 2</a></h6>
+                                        <span class="special-price">900.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay10.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 10</a></h6>
+                                        <span class="special-price">1.680.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="card owl-stage new-product">
+                                    <img src="~/Public/img/giay5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body product-name">
+                                        <h6><a href="#">Giày thể thao cao cấp converse 5</a></h6>
+                                        <span class="special-price">1.000.000<sup>đ</sup></span>
+                                        <a href="#" class="add-cart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            Buy now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
